@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: silver;
+}
+.nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    transition: .2s;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.nav-link:hover{
+    background-color: goldenrod;
+    font-size: 20px;
+}
+.hero{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: url(../jpg/logo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-text-box{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.hero-text-box .main{
+    background-color: transparent;
+}
+.hero-text-box .sub-main{
+    font-size: 20px;
+    background-color: transparent;
+}
+.hero-btn{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.hero-btn:hover{
+    background-color: goldenrod;
+    font-size: 15px;
+}
+.about-us{
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+.about-us-title{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+.about-us-block{
+   display: flex;
+}
+.block{
+    width: 50%;
+}
+.about-us-text{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.about-us-img{
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url(../jpg/projekt.jpg);
+    width: 300px;
+    height: 145px;
+}
+.about-us-block2{
+    display: flex;
+}
+.block2{
+    width: 50%;
+}
+.wycena-text{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.image-projekt{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background-image: url(../jpg/lazienka.jpg);
+    width: 512px;
+    height: 342px;
+}
+.products{
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+.products-title{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+.products-element{
+    margin-left: 20px;
+}
+.product-element-1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-element-2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-element-3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-element-4{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-element-5{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-element-6{
+    font-weight: bold;
+    font-size: 25px;
+}
+.reviews{
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+.reviews-title{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.opinie{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
